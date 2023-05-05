@@ -6,19 +6,18 @@ def perimeter_of_rectangle(width, height):
     perimeter = 2 * (width + height)
     return perimeter
 
-def soma(width, height):
-    soma = width + height
-    return soma 
+def soma_valores(valor1, valor2):
+    soma = valor1 + valor2
+    return soma
 
-def subtracao(width, height):
-    subtracao = width - height
-    return subtracao
-
-def multiplicacao(width, height):
-    multiplicacao = width * height
+def multiplicacao_valores(valor1, valor2):
+    multiplicacao = valor1 * valor2
     return multiplicacao
 
-def divisao(width, height):
-    divisao = width/height
+def divisao_valores(valor1, valor2):
+    divisao = valor1 / valor2
     return divisao
 
+def subtracao_valores(valor1, valor2):
+    subtracao  = valor1 - valor2
+    return subtracao
