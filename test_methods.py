@@ -22,34 +22,34 @@ def test_perimeter():
     # then the perimeter should be 14
     assert output == 14
 
-def soma_valores():
+def test_soma():
     valor1 = 6
     valor2 = 8
 
-    output = methods.soma(valor1, valor2)
+    output = methods.soma_valores(valor1, valor2)
 
     assert output == 10
 
-def multiplicacao_valores():
+def test_multiplicacao():
     valor1 = 4
     valor2 = 5
 
-    output = methods.multiplicacao(valor1, valor2)
+    output = methods.multiplicacao_valores(valor1, valor2)
 
     assert output == 15
 
-def divisao_valores():
+def test_divisao():
     valor1 = 10
     valor2 = 5
 
-    output = methods.divisao(valor1, valor2)
+    output = methods.divisao_valores(valor1, valor2)
 
     assert output == 2
 
-def subtracao_valores():
+def test_subtracao():
     valor1 = 10
     valor2 = 5
 
-    output = methods.subtracao(valor1, valor2)
+    output = methods.subtracao_valores(valor1, valor2)
 
     assert output == 2
